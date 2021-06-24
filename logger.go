@@ -13,7 +13,7 @@ func Logger() HandlerFunc {
 		//处理请求
 		c.Next()
 
-		log.Printf("[%d] %s in %v", c.StatusCode, c.Req.RequestURI, time.Since(t))
+		log.Printf("[%d] %s in %v", c.writermem.status, c.Request.RequestURI, time.Since(t))
 	}
 }
 

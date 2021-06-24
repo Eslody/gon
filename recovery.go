@@ -16,10 +16,11 @@ func Recovery() HandlerFunc {
 				message := fmt.Sprintf("%s", err)
 				//打印错误日志
 				log.Printf("%s\n\n", trace(message))
-				c.Fail(http.StatusInternalServerError, "Internal Server Error")
+				c.Abort()
+				c.JSON(http.StatusInternalServerError, H{"message": "Internal Server Error"})
+
 			}
 		}()
-
 		c.Next()
 	}
 }

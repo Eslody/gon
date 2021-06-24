@@ -53,11 +53,11 @@ func (group *RouterGroup) createStaticHandler(relativePath string, fs http.FileS
 		file := c.Params["filepath"]
 		//验权
 		if _, err := fs.Open(file); err != nil {
-			c.Status(http.StatusNotFound)
+			c.WriteStatus(http.StatusNotFound)
 			return
 		}
 
-		fileServer.ServeHTTP(c.Writer, c.Req)
+		fileServer.ServeHTTP(c.Writer, c.Request)
 	}
 }
 

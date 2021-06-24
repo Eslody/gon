@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 )
-//静态路由处理函数
+//路由处理函数
 type HandlerFunc func(c *Context)
 
 //抽象engine作为最顶层分组，继承分组所有能力
@@ -24,7 +24,7 @@ func New() *Engine {
 	return engine
 
 }
-//初始化中间件一系列操作
+//初始化中间件一系列操作，默认只加日志和错误恢复
 func Default() *Engine {
 	engine := New()
 	engine.Use(Logger(), Recovery())
@@ -44,6 +44,7 @@ func (engine *Engine) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 		}
 	}
 	//处理函数添加中间件
+	//这里其实可以用线程池优化
 	c := newContext(w, req)
 	c.handlers = middlewares
 	engine.router.handle(c)

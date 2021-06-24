@@ -12,8 +12,9 @@ import (
 func onlyForV2() gon.HandlerFunc {
 	return func(c *gon.Context) {
 		t := time.Now()
-		c.Fail(500, "Internal Server Error")
-		log.Printf("[%d] %s in %v for group v2", c.StatusCode, c.Req.RequestURI, time.Since(t))
+		c.Abort()
+		c.String(200, "v2")
+		log.Printf("[%d] %s in %v for group v2", c.Writer.Status(), c.Request.RequestURI, time.Since(t))
 	}
 }
 
