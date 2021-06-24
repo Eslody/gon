@@ -23,28 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0037a55b-d30e-402f-ab71-f49276009300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cache/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache/cache_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache/persist/cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache/persist/memcache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cache/persist/redicache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/memExample.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/redisExample.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responseWriter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/gon.go" beforeDir="false" afterPath="$PROJECT_DIR$/gon.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/gon_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/gon_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/recovery.go" beforeDir="false" afterPath="$PROJECT_DIR$/recovery.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/router_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/router_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/routergroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/routergroup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gon/trie.go" beforeDir="false" afterPath="$PROJECT_DIR$/trie.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

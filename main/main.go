@@ -23,7 +23,9 @@ func main() {
 	r.GET("/", func(c *gon.Context) {
 		c.HTML(http.StatusOK, "<h1>Hello Gee</h1>")
 	})
-
+	r.GET("/hello", func(c *gon.Context) {
+		c.String(http.StatusOK, "hello world")
+	})
 	r.GET("/panic", func(c *gon.Context) {
 		nums := []string{"gon"}
 		c.String(http.StatusOK, nums[10])
