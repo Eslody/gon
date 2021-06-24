@@ -19,6 +19,7 @@ func main() {
 	}))
 	app.GET("/hello",
 		func(c *gon.Context) {
+			time.Sleep(2 * time.Second)
 			c.String(200, "hello world")
 		},
 	)

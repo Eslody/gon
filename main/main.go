@@ -24,6 +24,7 @@ func main() {
 		c.HTML(http.StatusOK, "<h1>Hello Gee</h1>")
 	})
 	r.GET("/hello", func(c *gon.Context) {
+		time.Sleep(2 * time.Second)
 		c.String(http.StatusOK, "hello world")
 	})
 	r.GET("/panic", func(c *gon.Context) {
