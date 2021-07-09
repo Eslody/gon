@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0037a55b-d30e-402f-ab71-f49276009300" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gin-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/memExample.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/memExample.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,9 +76,9 @@
       <recent name="D:\gon\gon\middleware" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.cache_test.go">
+  <component name="RunManager" selected="Go Build.go build memExample.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="gin-demo" />
+      <module name="gon" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
@@ -85,19 +88,10 @@
       <method v="2" />
     </configuration>
     <configuration name="go build cacheExample.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gin-demo" />
+      <module name="gon" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main/cacheExample.go" />
-      <package value="gon" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build gon" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gin-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main/main.go" />
       <package value="gon" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -111,17 +105,8 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build gon/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gin-demo" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/main/main.go" />
-      <package value="gon" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gin-demo" />
+      <module name="gon" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main/main.go" />
@@ -129,8 +114,17 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build memExample.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gon" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/memExample.go" />
+      <package value="gon" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build redisExample.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="gin-demo" />
+      <module name="gon" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main/redisExample.go" />
@@ -139,7 +133,7 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="gin-demo" />
+      <module name="gon" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gotest" />
@@ -150,7 +144,7 @@
       <method v="2" />
     </configuration>
     <configuration name="cache_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gin-demo" />
+      <module name="gon" />
       <working_directory value="$PROJECT_DIR$/cache" />
       <framework value="gotest" />
       <kind value="FILE" />
@@ -161,19 +155,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build gon" />
-      <item itemvalue="Go Build.go build gon/" />
       <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build redisExample.go" />
       <item itemvalue="Go Build.go build cacheExample.go" />
+      <item itemvalue="Go Build.go build memExample.go" />
       <item itemvalue="Go Test.cache_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build memExample.go" />
+        <item itemvalue="Go Build.go build redisExample.go" />
         <item itemvalue="Go Test.cache_test.go" />
         <item itemvalue="Go Build.go build cacheExample.go" />
-        <item itemvalue="Go Build.go build redisExample.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build gon/" />
       </list>
     </recent_temporary>
   </component>
@@ -219,26 +213,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1624354992070" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624448799787">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624532835934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624448799787" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1624451715219">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624532835934" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1625812179249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624451715219" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1624451715219">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625812179249" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1625812179249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624451715219" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1624451715219">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625812179249" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1625812179249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624451715219" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1624451715219">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625812179249" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1625812179249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624451715219" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625812179249" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1624450406941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
